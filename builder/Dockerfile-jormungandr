@@ -1,4 +1,4 @@
-FROM navitia/python
+FROM navitia/debian8_dev:py3
 
 WORKDIR /usr/src/app
 COPY navitia/source/jormungandr/requirements.txt /usr/src/app

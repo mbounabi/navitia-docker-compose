@@ -1,4 +1,4 @@
-FROM debian:8
+FROM navitia/debian8_dev:py3
 
 RUN apt-get update --fix-missing && \
     apt-get upgrade -y && \

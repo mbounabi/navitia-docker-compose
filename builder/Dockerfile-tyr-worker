@@ -1,4 +1,5 @@
-FROM debian:8
+FROM navitia/debian8_dev:py3
+
 ENV MIMIR_PKG_URL=https://ci.navitia.io/job/mimirsbrunn_release_package/lastSuccessfulBuild/artifact/*zip*/archive.zip
 ENV COSMOGONY2CITIES_PKG_URL=https://ci.navitia.io/view/mimir/job/cosmogony2cities_deb/lastSuccessfulBuild/artifact/*zip*/archive.zip
 
